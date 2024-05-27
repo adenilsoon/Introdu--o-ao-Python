@@ -1,1 +1,1 @@
-# Repositório criado e utilizado para armazenamento de todos os projetos desenvolvidos durante o bootcamp na trilha FRONT-END da Talento Cloud - Proz Educação.
+# Olá, meu nome é Adenilson e estou participando do curso de programação oferecido pela Talento Cloud - Proz Educação na trilha FRONT-END em Java. Criei esse repositório para armazenar todos os projetos desenvolvidos durante o bootcamp, bem como para que seja dado um start na construção do meu portifólio.
