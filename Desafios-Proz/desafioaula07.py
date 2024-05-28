@@ -14,6 +14,6 @@ def encontrar_elemento (elemento, array):
 clientes = ["Adenilson", "Júlia", "Garel do Mel", "Beatriz", "Arthur"]
 
 print("=== BUSCAR CLIENTES ===\n")
-elemento = str(input("Informe o nome do cliente: "))
+elemento = input("Informe o nome do cliente: ")
 
 print(encontrar_elemento(elemento, clientes))
