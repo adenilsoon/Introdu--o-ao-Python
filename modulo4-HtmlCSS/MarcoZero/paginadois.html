@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/modulo4-HtmlCSS/MarcoZero/styles/style.css" rel="stylesheet">
     <title>Turísmo é aqui</title>
 </head>
 <body>
     <header>
         <main>
-            <nav>
-                <a href="/modulo4-HtmlCSS/MarcoZero/index.html"><span><img src="/modulo4-HtmlCSS/MarcoZero/img/logo-marcozero.jpg" width="80px" alt="logo pagina"></span></a>
-                <ul>
+            <nav class="menu">
+                <a href="/modulo4-HtmlCSS/MarcoZero/index.html"><span><img src="/modulo4-HtmlCSS/MarcoZero/img/logo-marcozero.png" id="logo" alt="logo pagina"></span></a>
+                <ul id="navbar">
                     <li><a href="/modulo4-HtmlCSS/MarcoZero/index.html">Inicio</a></li>
                     <li><a href="">Fotos</a></li>
                     <li><a href="">Eventos</a></li>
@@ -22,28 +23,29 @@
     </header>
 
     <section class="conteudo">
-        <section class="title_page">
+        <section id="title_page">
             <h1>Conheça a cidade de Recife</h1>
 
             <p><span style="color:rgb(0, 225, 255);font-size:18px">E se apaixone pelas belezas que você só encontra aqui</span></p>
         </section>
+        
+        <section id="apresentacao"
+            <h3>Visite nossos pontos turísticos</h3>
 
-        <h3>Visite nossos pontos turísticos</h3>
+            <section class="ponto_um">
+                <h3>Praça de Esculturas de Francisco Brennand</h3>
+                <p>O Parque de Esculturas de Francisco Brennand é um dos lugares turísticos em Recife que também chama atenção: um conjunto de obras do artista plástico pernambucano Francisco Brennand, instalado em um recife artificial na orla do Marco Zero.
 
-        <section class="ponto_um">
-            <h3>Praça de Esculturas de Francisco Brennand</h3>
-            <p>O Parque de Esculturas de Francisco Brennand é um dos lugares turísticos em Recife que também chama atenção: um conjunto de obras do artista plástico pernambucano Francisco Brennand, instalado em um recife artificial na orla do Marco Zero.
+                O parque tem como destaque a Coluna de Cristal, uma escultura de 32 metros de altura que simboliza o marco dos 500 anos do descobrimento do Brasil.
+                    
+                O parque pode ser acessado por meio de um passeio de catamarã pelo rio Capibaribe ou de carro, pelo bairro de Brasília Teimosa.</p>
 
-            O parque tem como destaque a Coluna de Cristal, uma escultura de 32 metros de altura que simboliza o marco dos 500 anos do descobrimento do Brasil.
-                
-            O parque pode ser acessado por meio de um passeio de catamarã pelo rio Capibaribe ou de carro, pelo bairro de Brasília Teimosa.</p>
+                <h4>Imagens</h4>
+                <img src="/modulo4-HtmlCSS/MarcoZero/img/parque-das-esculturas-pg2.jpeg" width="300px" alt="Imagem da Praça de Esculturas de Francisco Brennand">
 
-            <h4>Imagens</h4>
-            <img src="/modulo4-HtmlCSS/MarcoZero/img/parque-das-esculturas-pg2.jpeg" width="300px" alt="Imagem da Praça de Esculturas de Francisco Brennand">
+                <img src="/modulo4-HtmlCSS/MarcoZero/img/praça-das-esculturas-pg2-img2.jpg" width="300px" alt="Imagem da Praça de Esculturas de Francisco Brennand">
 
-            <img src="/modulo4-HtmlCSS/MarcoZero/img/praça-das-esculturas-pg2-img2.jpg" width="300px" alt="Imagem da Praça de Esculturas de Francisco Brennand">
-
-        </section>
+            </section>
 
         <section class="ponto_dois">
             <h3>Rua do Bom Jesus</h3>
@@ -62,7 +64,7 @@
 
     </section>
 
-    <footer>
+    <footer id="rodape">
         <h3>Nos acompanhe nas redes sociais</h3>
         <p>© 2024. Todos os direitos reservados. Desenvolvido por Adenilson Silva</p>
     </footer>

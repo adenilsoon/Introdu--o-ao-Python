@@ -1,0 +1,72 @@
+.menu {
+    display: flex;
+    background-color: rgb(168, 255, 163);    
+}
+
+.menu ul {
+    align-items: center;
+}
+#rodape {
+    background-color: rgb(168, 255, 163);
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li, a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#logo {
+    margin-top: 10px;
+    width: 100px;
+
+}
+
+#title_page {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    justify-content: center;
+    text-align: center;
+    background-color:  rgb(197, 253, 234);
+}
+
+#apresentacao {
+    padding: 50px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#historia {
+    padding: 50px;
+    margin: 50px;
+    font-size: 18px;
+    text-align: justify;
+    background-color: rgb(197, 253, 234);
+}
+
+#imagens {
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#imagens div{
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#conteudo {
+    padding: 50px;
+    font-size: 18px;
+    text-align: justify;
+}
